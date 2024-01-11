@@ -131,6 +131,7 @@ git clone --depth 1 https://github.com/mingxiaoyu/luci-app-cloudflarespeedtest c
 git clone --depth 1 https://github.com/doushang/luci-app-shortcutmenu luci-shortcutmenu && mv -n luci-shortcutmenu/luci-app-shortcutmenu ./ ; rm -rf luci-shortcutmenu
 git clone --depth 1 https://github.com/sbilly/netmaker-openwrt && mv -n netmaker-openwrt/netmaker ./; rm -rf netmaker-openwrt
 git clone --depth 1 https://github.com/coolsnowwolf/packages && mv -n packages/multimedia/UnblockNeteaseMusic-Go packages/net/msd_lite ./ ; rm -rf packages
+git clone --depth 1 https://github.com/muink/luci-app-tinyfilemanager
 
 svn export https://github.com/immortalwrt/luci/trunk/applications/luci-app-homeproxy
 svn export https://github.com/coolsnowwolf/luci/trunk/libs/luci-lib-ipkg
